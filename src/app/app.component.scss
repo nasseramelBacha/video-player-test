@@ -1,0 +1,20 @@
+/* Ajustar el reproductor */
+#videoPlayer {
+  width: 100% !important;
+  max-width: 800px;
+  height: 450px !important;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Ajustar contenedor de anuncios */
+#adContainer {
+  width: 800px;
+  height: 450px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  z-index: 10;
+}
